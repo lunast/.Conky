@@ -227,7 +227,7 @@ clock_y=155
 
 -- Colour & alpha of the clock hands
 
-clock_colour=0x2efef7
+clock_colour=0x00ffff
 clock_alpha=0.4
 
 -- Do you want to show the seconds hand?
