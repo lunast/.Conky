@@ -56,7 +56,7 @@ conky.text = [[
   ${font Mgen+\ 1pp:size=11}     Root : ${fs_used /} / ${fs_size /}      Home : ${fs_used /home} / ${fs_size /home}$font
 ${voffset 94}${goto 121}${font Mgen+\ 1pp:size=21}${time %H:%M}${voffset -10}${font Mgen+\ 1pp:size=10}${font}
 ${voffset -28}${goto 268}${hr 2}
-${voffset -72}${goto 285}${cpugraph 50,285 d5dcde ffffff} #${voffset -18} ${alignr}
+${voffset -74}${goto 285}${cpugraph 50,285 d5dcde ffffff} #${voffset -18} ${alignr}
 ${voffset 16}${goto 285}${time %Y年 %B%d日 %A}
 ${font Mgen+\ 1pp:size=13}${voffset -120}${goto 300}BATTERY : ${battery BAT0}
 ]];
